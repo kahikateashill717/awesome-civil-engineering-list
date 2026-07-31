@@ -37,7 +37,6 @@
     "description": "170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability.",
     "license": "Apache-2.0",
     "added": "2026-07-30",
-    "pinned": true,
     "language": "Python"
   },
   {
@@ -368,7 +367,6 @@
     "description": "Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python.",
     "license": "Apache-2.0",
     "language": "Python",
-    "pinned": true,
     "added": "2026-07-31"
   },
   {

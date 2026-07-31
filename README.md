@@ -6,7 +6,7 @@
 
 > Curated open-source civil engineering software: structural analysis, geotechnical engineering, earthquake engineering, transportation, hydraulics, BIM, GIS, surveying, and mining tools — free for engineers, researchers, and students.
 
-![Awesome](https://awesome.re/badge.svg) ![License: CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg) [![Website](https://img.shields.io/badge/website-live-ffd54f?style=flat&labelColor=24292f)](https://riponcm.github.io/awesome-civil-engineering-list)
+![Awesome](https://awesome.re/badge.svg) ![License: CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)
 
 **Awesome Civil Engineering** is a curated directory of free, open-source civil engineering software — structural analysis and finite element analysis (FEA), geotechnical engineering and soil mechanics, earthquake and seismic hazard analysis, traffic and transportation simulation, hydraulics and stormwater modeling, BIM/CAD, GIS and geospatial processing, land surveying and point cloud tools, and mining geostatistics.
 
@@ -87,20 +87,20 @@ Open-source geotechnical engineering tools for soil mechanics, foundation design
 <table>
 <tr>
 <td width="25%" valign="top">
-<a href="https://geoeq.org"><b>GeoEq</b></a><br>
-<sub><b>GEOTECHNICAL · Pinned ⭐</b></sub><br><br>
-<sub>170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability.</sub><br><br>
-<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
-<img src="https://img.shields.io/github/stars/geoeq/geoeq?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for geoeq/geoeq">
-<img src="https://img.shields.io/github/last-commit/geoeq/geoeq?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for geoeq/geoeq">
-</td>
-<td width="25%" valign="top">
 <a href="https://github.com/snakesonabrain/groundhog"><b>groundhog</b></a><br>
 <sub><b>GEOTECHNICAL</b></sub><br><br>
 <sub>General-purpose geotechnical Python library for site investigation data, foundation design, and soil profile analysis.</sub><br><br>
 <img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
 <img src="https://img.shields.io/github/stars/snakesonabrain/groundhog?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for snakesonabrain/groundhog">
 <img src="https://img.shields.io/github/last-commit/snakesonabrain/groundhog?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for snakesonabrain/groundhog">
+</td>
+<td width="25%" valign="top">
+<a href="https://geoeq.org"><b>GeoEq</b></a><br>
+<sub><b>GEOTECHNICAL</b></sub><br><br>
+<sub>170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/geoeq/geoeq?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for geoeq/geoeq">
+<img src="https://img.shields.io/github/last-commit/geoeq/geoeq?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for geoeq/geoeq">
 </td>
 <td width="25%" valign="top">
 <a href="https://cemsbv.github.io/pygef"><b>pygef</b></a><br>
@@ -339,14 +339,6 @@ Open-source GIS software and geospatial libraries for spatial data management, m
 <table>
 <tr>
 <td width="25%" valign="top">
-<a href="https://acadgis.com"><b>AcadGIS</b></a><br>
-<sub><b>GIS · Pinned ⭐</b></sub><br><br>
-<sub>Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python.</sub><br><br>
-<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
-<img src="https://img.shields.io/github/stars/riponcm/AcadGIS?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for riponcm/AcadGIS">
-<img src="https://img.shields.io/github/last-commit/riponcm/AcadGIS?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for riponcm/AcadGIS">
-</td>
-<td width="25%" valign="top">
 <a href="https://qgis.org"><b>QGIS</b></a><br>
 <sub><b>GIS</b></sub><br><br>
 <sub>Full-featured, free and open-source geographic information system for spatial data management and analysis.</sub><br><br>
@@ -370,8 +362,6 @@ Open-source GIS software and geospatial libraries for spatial data management, m
 <img src="https://img.shields.io/github/stars/geopandas/geopandas?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for geopandas/geopandas">
 <img src="https://img.shields.io/github/last-commit/geopandas/geopandas?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for geopandas/geopandas">
 </td>
-</tr>
-<tr>
 <td width="25%" valign="top">
 <a href="https://geolibre.app"><b>GeoLibre</b></a><br>
 <sub><b>GIS</b></sub><br><br>
@@ -379,6 +369,16 @@ Open-source GIS software and geospatial libraries for spatial data management, m
 <img src="https://img.shields.io/badge/-TypeScript-24292f?style=flat-square" alt="Written in TypeScript">
 <img src="https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for opengeos/GeoLibre">
 <img src="https://img.shields.io/github/last-commit/opengeos/GeoLibre?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for opengeos/GeoLibre">
+</td>
+</tr>
+<tr>
+<td width="25%" valign="top">
+<a href="https://acadgis.com"><b>AcadGIS</b></a><br>
+<sub><b>GIS</b></sub><br><br>
+<sub>Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/riponcm/AcadGIS?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for riponcm/AcadGIS">
+<img src="https://img.shields.io/github/last-commit/riponcm/AcadGIS?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for riponcm/AcadGIS">
 </td>
 </tr>
 </table>
@@ -527,4 +527,4 @@ Contributions are welcome and take one pull request. See [CONTRIBUTING.md](CONTR
 
 The curation in this list (not the linked projects themselves) is released under [CC0 1.0](LICENSE). Each listed project keeps its own license, shown on its card.
 
-<p align="center"><sub>Designed & curated by <a href="https://github.com/riponcm">github.com/riponcm</a> · <a href="https://riponcm.github.io/awesome-civil-engineering-list">Browse the interactive website</a></sub></p>
+<p align="center"><sub>Designed & curated by <a href="https://github.com/riponcm">github.com/riponcm</a></sub></p>

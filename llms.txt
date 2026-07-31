@@ -3,7 +3,6 @@
 > A curated directory of free, open-source civil engineering software: structural analysis (FEA), geotechnical engineering, earthquake/seismic hazard, transportation and traffic simulation, hydraulics and stormwater, BIM/CAD, GIS/geospatial, surveying and point clouds, and mining geostatistics.
 
 Repository: https://github.com/riponcm/awesome-civil-engineering-list
-Website: https://riponcm.github.io/awesome-civil-engineering-list
 Data (machine-readable JSON): https://github.com/riponcm/awesome-civil-engineering-list/blob/main/data/tools.json
 License of this curation: CC0-1.0 (the listed projects keep their own licenses).
 
@@ -23,8 +22,8 @@ Open-source structural analysis software: finite element analysis (FEA) framewor
 
 Open-source geotechnical engineering tools for soil mechanics, foundation design, SPT/CPT interpretation, bearing capacity, settlement, liquefaction, and slope stability analysis.
 
-- [GeoEq](https://geoeq.org): 170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability. (License: Apache-2.0; Language: Python; Source: https://github.com/geoeq/geoeq)
 - [groundhog](https://github.com/snakesonabrain/groundhog): General-purpose geotechnical Python library for site investigation data, foundation design, and soil profile analysis. (License: GPL-3.0; Language: Python; Source: https://github.com/snakesonabrain/groundhog)
+- [GeoEq](https://geoeq.org): 170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability. (License: Apache-2.0; Language: Python; Source: https://github.com/geoeq/geoeq)
 - [pygef](https://cemsbv.github.io/pygef): Parse and analyse CPT and borehole files (GEF/XML) from geotechnical site investigations into dataframes. (License: MIT; Language: Python; Source: https://github.com/cemsbv/pygef)
 - [geolysis](https://docs.geolysis.io): Python package for geotechnical analysis: soil classification, SPT corrections, and allowable bearing capacity. (License: MIT; Language: Python; Source: https://github.com/patrickboateng/geolysis)
 
@@ -77,11 +76,11 @@ Open-source BIM and CAD software: Building Information Modeling, IFC interoperab
 
 Open-source GIS software and geospatial libraries for spatial data management, mapping, and geographic analysis in civil and infrastructure projects.
 
-- [AcadGIS](https://acadgis.com): Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python. (License: Apache-2.0; Language: Python; Source: https://github.com/riponcm/AcadGIS)
 - [QGIS](https://qgis.org): Full-featured, free and open-source geographic information system for spatial data management and analysis. (License: GPL-2.0; Language: C++; Source: https://github.com/qgis/QGIS)
 - [GDAL](https://gdal.org): Translator library for raster and vector geospatial data formats, powering most GIS software under the hood. (License: MIT; Language: C++; Source: https://github.com/OSGeo/gdal)
 - [GeoPandas](https://geopandas.org): Pandas-based Python library for geospatial vector data: geometry operations, spatial joins, and mapping. (License: BSD-3-Clause; Language: Python; Source: https://github.com/geopandas/geopandas)
 - [GeoLibre](https://geolibre.app): Lightweight, cloud-native GIS platform that runs in the browser, on desktop, on mobile, and inside Jupyter notebooks. (License: MIT; Language: TypeScript; Source: https://github.com/opengeos/GeoLibre)
+- [AcadGIS](https://acadgis.com): Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python. (License: Apache-2.0; Language: Python; Source: https://github.com/riponcm/AcadGIS)
 
 ## Surveying & Point Cloud Processing
 

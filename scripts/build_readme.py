@@ -32,7 +32,6 @@ LLMS_FILE = ROOT / "llms.txt"
 HEADERS_DIR = ROOT / "assets" / "headers"
 
 REPO_URL = "https://github.com/riponcm/awesome-civil-engineering-list"
-SITE_URL = "https://riponcm.github.io/awesome-civil-engineering-list"
 CARDS_PER_ROW = 4
 DESCRIPTION_MAX = 160
 
@@ -308,7 +307,6 @@ def build_llms_txt(tools_by_cat):
         "GIS/geospatial, surveying and point clouds, and mining geostatistics.",
         "",
         f"Repository: {REPO_URL}",
-        f"Website: {SITE_URL}",
         "Data (machine-readable JSON): "
         f"{REPO_URL}/blob/main/data/tools.json",
         "License of this curation: CC0-1.0 (the listed projects keep their own licenses).",
@@ -373,10 +371,7 @@ def build():
     )
     parts.append(
         "![Awesome](https://awesome.re/badge.svg) "
-        "![License: CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg) "
-        f"[![Website]("
-        "https://img.shields.io/badge/website-live-ffd54f?style=flat&labelColor=24292f"
-        f")]({SITE_URL})\n"
+        "![License: CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)\n"
     )
     parts.append(INTRO + "\n")
 
@@ -426,8 +421,7 @@ def build():
     )
     parts.append(
         '<p align="center"><sub>Designed & curated by '
-        '<a href="https://github.com/riponcm">github.com/riponcm</a> · '
-        f'<a href="{SITE_URL}">Browse the interactive website</a></sub></p>'
+        '<a href="https://github.com/riponcm">github.com/riponcm</a></sub></p>'
     )
 
     README_FILE.write_text("\n".join(parts) + "\n", encoding="utf-8")
