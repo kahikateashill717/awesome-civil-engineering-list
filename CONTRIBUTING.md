@@ -18,8 +18,13 @@ Thanks for considering adding a project to this list! To keep it useful, entries
 
 - `structural-engineering` -- Structural Engineering & Analysis
 - `geotechnical-engineering` -- Geotechnical Engineering
+- `earthquake-engineering` -- Earthquake Engineering
+- `transportation-engineering` -- Transportation Engineering
+- `environmental-engineering` -- Environmental Engineering
+- `hydraulics-water-resources` -- Hydraulics & Water Resources
 - `bim-cad` -- BIM & CAD
 - `gis-geospatial` -- GIS & Geospatial
-- `hydraulics-water-resources` -- Hydraulics & Water Resources
+- `surveying-point-cloud` -- Surveying & Point Cloud Processing
+- `mining-engineering` -- Mining Engineering
 
 If your project doesn't fit an existing category, propose a new one in your pull request description.
