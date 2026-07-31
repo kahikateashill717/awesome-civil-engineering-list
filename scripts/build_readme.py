@@ -24,9 +24,14 @@ README_FILE = ROOT / "README.md"
 CATEGORIES = [
     ("structural-engineering", "Structural Engineering & Analysis"),
     ("geotechnical-engineering", "Geotechnical Engineering"),
+    ("earthquake-engineering", "Earthquake Engineering"),
+    ("transportation-engineering", "Transportation Engineering"),
+    ("environmental-engineering", "Environmental Engineering"),
+    ("hydraulics-water-resources", "Hydraulics & Water Resources"),
     ("bim-cad", "BIM & CAD"),
     ("gis-geospatial", "GIS & Geospatial"),
-    ("hydraulics-water-resources", "Hydraulics & Water Resources"),
+    ("surveying-point-cloud", "Surveying & Point Cloud Processing"),
+    ("mining-engineering", "Mining Engineering"),
 ]
 
 DESCRIPTION_MAX = 160
