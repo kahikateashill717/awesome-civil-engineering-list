@@ -1,0 +1,19 @@
+<svg viewBox="0 0 860 64" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Surveying &amp; Point Cloud Processing">
+  <style>
+    .h { font: 800 24px -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: -0.3px; }
+    .n { font: 700 15px "SFMono-Regular", Consolas, monospace; }
+    .rule { stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 1.6s ease-out 0.2s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .tick { animation: blink 2.2s ease-in-out infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .rule { stroke-dashoffset: 0; } }
+  </style>
+  <rect width="860" height="64" rx="10" fill="#101418"/>
+  <rect x="0.5" y="0.5" width="859" height="63" rx="10" stroke="rgba(160,178,198,0.2)"/>
+  <g stroke="#ffc72c" stroke-width="3" stroke-linecap="round" fill="none"><path d="M31 47 L40 26 L49 47 M40 26 L40 34"/><rect x="33" y="16" width="14" height="9" rx="1.5"/></g>
+  <text class="n" x="72" y="40" fill="#ffc72c">09</text>
+  <text class="h" x="102" y="41" fill="#f0f3f6">Surveying &amp; Point Cloud Processing</text>
+  <line x1="579" y1="32" x2="820" y2="32" stroke="rgba(255,199,44,0.22)" stroke-width="2"/>
+  <line class="rule" x1="579" y1="32" x2="820" y2="32" stroke="rgba(255,199,44,0.55)" stroke-width="2"/>
+  <circle class="tick" cx="828" cy="32" r="4" fill="#ffc72c"/>
+</svg>

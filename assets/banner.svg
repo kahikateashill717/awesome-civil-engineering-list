@@ -1,0 +1,173 @@
+<svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Awesome Civil Engineering — a curated list of open-source tools">
+  <style>
+    .draw { stroke-dasharray: 1800; stroke-dashoffset: 1800; animation: draw 3.2s ease-out 0.4s forwards; }
+    .draw-slow { stroke-dasharray: 2600; stroke-dashoffset: 2600; animation: draw 4.5s ease-out 0.7s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .hanger { stroke-dasharray: 120; stroke-dashoffset: 120; animation: draw 0.7s ease-out forwards; }
+    .jib { transform-box: fill-box; transform-origin: 78% 15%; animation: sway 9s ease-in-out infinite; }
+    @keyframes sway { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-3.5deg); } }
+    .hook { animation: lift 9s ease-in-out infinite; }
+    @keyframes lift { 0%, 18% { transform: translateY(0); } 45%, 60% { transform: translateY(-46px); } 88%, 100% { transform: translateY(0); } }
+    .beacon { animation: blink 1.6s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    .car { animation: drive 7s linear infinite; }
+    .c2 { animation-delay: 2.3s; }
+    .c3 { animation-delay: 4.6s; }
+    @keyframes drive {
+      from { transform: translateX(-40px); opacity: 0; }
+      5% { opacity: 1; }
+      95% { opacity: 1; }
+      to { transform: translateX(700px); opacity: 0; }
+    }
+    .wave { animation: shift 6s ease-in-out infinite alternate; }
+    .w2 { animation-delay: 1.5s; animation-duration: 8s; }
+    @keyframes shift { from { transform: translateX(0); } to { transform: translateX(36px); } }
+    .fade { opacity: 0; animation: fadein 1s ease forwards; }
+    .f1 { animation-delay: 0.2s; }
+    .f2 { animation-delay: 0.5s; }
+    .f3 { animation-delay: 0.8s; }
+    @keyframes fadein { to { opacity: 1; } }
+    .title { font: 800 54px -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+    .tag { font: 400 17px -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .kicker { font: 600 12px "SFMono-Regular", Consolas, "Liberation Mono", monospace; letter-spacing: 4px; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+      .draw, .draw-slow, .hanger { stroke-dashoffset: 0; }
+      .fade { opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9d6e2"/>
+      <stop offset="0.45" stop-color="#8fb8dd"/>
+      <stop offset="1" stop-color="#ffc72c"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0 H0 V28" stroke="rgba(150,168,186,0.10)" stroke-width="1" fill="none"/>
+    </pattern>
+    <pattern id="gridBig" width="140" height="140" patternUnits="userSpaceOnUse">
+      <path d="M140 0 H0 V140" stroke="rgba(150,168,186,0.20)" stroke-width="1" fill="none"/>
+    </pattern>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.5" stop-color="#101418" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0e12" stop-opacity="0.9"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="360" fill="#101418"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#gridBig)"/>
+
+  <!-- ===== text block (left) ===== -->
+  <g class="fade f1">
+    <text class="kicker" x="70" y="96" fill="#8fb8dd">// OPEN-SOURCE · CURATED</text>
+  </g>
+  <g class="fade f2">
+    <text class="title" x="66" y="156" fill="#f0f3f6">Awesome</text>
+    <text class="title" x="66" y="214" fill="#ffc72c">Civil Engineering</text>
+  </g>
+  <g class="fade f3">
+    <text class="tag" x="68" y="252" fill="#9aa6b4">Open-source tools for structural, geotechnical,</text>
+    <text class="tag" x="68" y="276" fill="#9aa6b4">transportation, water &amp; geospatial engineering.</text>
+  </g>
+  <g class="fade f3" opacity="0.75">
+    <path transform="translate(68 310) scale(1.05)" fill="#9aa6b4" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    <text class="kicker" x="94" y="323" fill="#9aa6b4" style="letter-spacing:1px">DESIGNED BY github.com/riponcm</text>
+  </g>
+
+  <!-- ===== scene (right) ===== -->
+  <g transform="translate(560, 0)">
+    <!-- water -->
+    <path class="wave" d="M-40 316 Q 0 310 40 316 T 120 316 T 200 316 T 280 316 T 360 316 T 440 316 T 520 316 T 600 316 T 680 316" stroke="rgba(143,184,221,0.32)" stroke-width="2"/>
+    <path class="w2 wave" d="M-40 332 Q 0 326 40 332 T 120 332 T 200 332 T 280 332 T 360 332 T 440 332 T 520 332 T 600 332 T 680 332" stroke="rgba(143,184,221,0.16)" stroke-width="2"/>
+
+    <!-- banks with soil strata -->
+    <g>
+      <path d="M0 270 L90 270 L100 283 L0 283 Z" fill="rgba(196,163,90,0.40)"/>
+      <path d="M0 283 L100 283 L110 296 L0 296 Z" fill="rgba(154,123,79,0.34)"/>
+      <path d="M0 296 L110 296 L120 310 L0 310 Z" fill="rgba(110,90,69,0.32)"/>
+      <line x1="0" y1="283" x2="100" y2="283" stroke="rgba(196,163,90,0.5)" stroke-width="1" stroke-dasharray="4 3"/>
+      <line x1="0" y1="296" x2="110" y2="296" stroke="rgba(154,123,79,0.5)" stroke-width="1" stroke-dasharray="4 3"/>
+    </g>
+    <g>
+      <path d="M640 270 L550 270 L540 283 L640 283 Z" fill="rgba(196,163,90,0.40)"/>
+      <path d="M640 283 L540 283 L530 296 L640 296 Z" fill="rgba(154,123,79,0.34)"/>
+      <path d="M640 296 L530 296 L520 310 L640 310 Z" fill="rgba(110,90,69,0.32)"/>
+      <line x1="540" y1="283" x2="640" y2="283" stroke="rgba(196,163,90,0.5)" stroke-width="1" stroke-dasharray="4 3"/>
+      <line x1="530" y1="296" x2="640" y2="296" stroke="rgba(154,123,79,0.5)" stroke-width="1" stroke-dasharray="4 3"/>
+    </g>
+
+    <!-- static fallback: faint bridge always visible even if animations are frozen -->
+    <g opacity="0.28">
+      <g stroke="rgba(240,243,246,0.9)" stroke-width="5" stroke-linecap="round">
+        <path d="M215 268 L215 100 M235 268 L235 100 M215 140 L235 140 M215 185 L235 185 M215 230 L235 230"/>
+        <path d="M445 268 L445 100 M465 268 L465 100 M445 140 L465 140 M445 185 L465 185 M445 230 L465 230"/>
+      </g>
+      <path d="M20 260 Q 110 250 225 106 Q 340 248 455 106 Q 560 250 650 260" stroke="#ffc72c" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M10 268 L650 268" stroke="rgba(240,243,246,0.95)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <!-- towers -->
+    <g stroke="rgba(240,243,246,0.9)" stroke-width="5" stroke-linecap="round">
+      <path class="draw" d="M215 268 L215 100 M235 268 L235 100 M215 140 L235 140 M215 185 L235 185 M215 230 L235 230"/>
+      <path class="draw" d="M445 268 L445 100 M465 268 L465 100 M445 140 L465 140 M445 185 L465 185 M445 230 L465 230"/>
+    </g>
+    <circle class="beacon" cx="225" cy="92" r="4" fill="#ff5d5d"/>
+    <circle class="beacon" cx="455" cy="92" r="4" fill="#ff5d5d" style="animation-delay:0.8s"/>
+
+    <!-- main cables -->
+    <path class="draw-slow" d="M20 260 Q 110 250 225 106 Q 340 248 455 106 Q 560 250 650 260" stroke="#ffc72c" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- hangers -->
+    <g stroke="rgba(255,199,44,0.55)" stroke-width="1.6">
+      <line class="hanger" style="animation-delay:2.0s" x1="270" y1="172" x2="270" y2="265"/>
+      <line class="hanger" style="animation-delay:2.15s" x1="305" y1="202" x2="305" y2="265"/>
+      <line class="hanger" style="animation-delay:2.3s" x1="340" y1="216" x2="340" y2="265"/>
+      <line class="hanger" style="animation-delay:2.45s" x1="375" y1="202" x2="375" y2="265"/>
+      <line class="hanger" style="animation-delay:2.6s" x1="410" y1="172" x2="410" y2="265"/>
+      <line class="hanger" style="animation-delay:2.75s" x1="160" y1="196" x2="160" y2="265"/>
+      <line class="hanger" style="animation-delay:2.9s" x1="520" y1="196" x2="520" y2="265"/>
+    </g>
+    <!-- deck -->
+    <path class="draw-slow" d="M10 268 L650 268" stroke="rgba(240,243,246,0.95)" stroke-width="5" stroke-linecap="round"/>
+    <path class="draw-slow" d="M10 278 L650 278" stroke="rgba(240,243,246,0.4)" stroke-width="2"/>
+    <g stroke="rgba(240,243,246,0.35)" stroke-width="1.5">
+      <path class="draw-slow" d="M20 268 L40 278 L60 268 L80 278 L100 268 L120 278 L140 268 L160 278 L180 268 L200 278 L220 268 L240 278 L260 268 L280 278 L300 268 L320 278 L340 268 L360 278 L380 268 L400 278 L420 268 L440 278 L460 268 L480 278 L500 268 L520 278 L540 268 L560 278 L580 268 L600 278 L620 268 L640 278"/>
+    </g>
+
+    <!-- traffic -->
+    <circle class="car" cy="262" cx="0" r="4" fill="#8fb8dd"/>
+    <circle class="c2 car" cy="262" cx="0" r="4" fill="#c9d6e2"/>
+    <circle class="c3 car" cy="262" cx="0" r="4" fill="#ffc72c"/>
+
+    <!-- tower crane -->
+    <g>
+      <line x1="595" y1="270" x2="595" y2="122" stroke="rgba(240,243,246,0.9)" stroke-width="4"/>
+      <g stroke="rgba(240,243,246,0.5)" stroke-width="1.5">
+        <line x1="589" y1="260" x2="601" y2="248"/><line x1="601" y1="260" x2="589" y2="248"/>
+        <line x1="589" y1="236" x2="601" y2="224"/><line x1="601" y1="236" x2="589" y2="224"/>
+        <line x1="589" y1="212" x2="601" y2="200"/><line x1="601" y1="212" x2="589" y2="200"/>
+        <line x1="589" y1="188" x2="601" y2="176"/><line x1="601" y1="188" x2="589" y2="176"/>
+        <line x1="589" y1="164" x2="601" y2="152"/><line x1="601" y1="164" x2="589" y2="152"/>
+        <line x1="589" y1="140" x2="601" y2="128"/><line x1="601" y1="140" x2="589" y2="128"/>
+      </g>
+      <g class="jib">
+        <line x1="345" y1="128" x2="665" y2="128" stroke="#ffc72c" stroke-width="4" stroke-linecap="round"/>
+        <line x1="595" y1="108" x2="360" y2="128" stroke="rgba(255,199,44,0.6)" stroke-width="1.5"/>
+        <line x1="595" y1="108" x2="658" y2="128" stroke="rgba(255,199,44,0.6)" stroke-width="1.5"/>
+        <rect x="640" y="128" width="18" height="12" fill="rgba(240,243,246,0.7)"/>
+        <g class="hook">
+          <line x1="420" y1="128" x2="420" y2="226" stroke="rgba(240,243,246,0.7)" stroke-width="1.5"/>
+          <rect x="402" y="226" width="36" height="12" rx="2" fill="#8fb8dd"/>
+        </g>
+      </g>
+      <circle class="beacon" cx="595" cy="106" r="4" fill="#ff5d5d" style="animation-delay:0.4s"/>
+    </g>
+  </g>
+
+  <!-- edge vignette -->
+  <rect width="1200" height="360" fill="url(#vignette)"/>
+  <!-- hairline frame -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="6" stroke="rgba(160,178,198,0.25)"/>
+</svg>

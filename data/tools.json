@@ -6,7 +6,8 @@
     "category": "structural-engineering",
     "description": "Open-source framework for simulating the seismic response of structural and geotechnical systems.",
     "license": "Custom (BSD-style)",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "PyNite",
@@ -15,7 +16,8 @@
     "category": "structural-engineering",
     "description": "Simple, elastic 3D finite element analysis library for structural engineering, written in Python.",
     "license": "MIT",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "Python"
   },
   {
     "name": "anaStruct",
@@ -24,7 +26,8 @@
     "category": "structural-engineering",
     "description": "Analyse 2D frames and trusses for slender structures: bending moments, shear, axial forces, and displacements.",
     "license": "LGPL-3.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "Python"
   },
   {
     "name": "GeoEq",
@@ -34,7 +37,8 @@
     "description": "170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability.",
     "license": "Apache-2.0",
     "added": "2026-07-30",
-    "pinned": true
+    "pinned": true,
+    "language": "Python"
   },
   {
     "name": "OpenQuake Engine",
@@ -43,7 +47,8 @@
     "category": "earthquake-engineering",
     "description": "Seismic hazard and risk analysis engine developed by the Global Earthquake Model (GEM) Foundation.",
     "license": "AGPL-3.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "Python"
   },
   {
     "name": "SUMO",
@@ -52,7 +57,8 @@
     "category": "transportation-engineering",
     "description": "Microscopic, multi-modal traffic simulation package for modeling urban and highway transportation networks.",
     "license": "EPL-2.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "WNTR",
@@ -61,7 +67,8 @@
     "category": "environmental-engineering",
     "description": "Python package to simulate and analyze the resilience of water distribution networks under disruptive events.",
     "license": "BSD-3-Clause",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "Python"
   },
   {
     "name": "EPA SWMM",
@@ -70,7 +77,8 @@
     "category": "hydraulics-water-resources",
     "description": "Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems.",
     "license": "Public Domain",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C"
   },
   {
     "name": "FreeCAD",
@@ -79,7 +87,8 @@
     "category": "bim-cad",
     "description": "Free and open-source multiplatform 3D parametric modeler, widely used for mechanical and architectural design.",
     "license": "LGPL-2.1",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "IfcOpenShell",
@@ -88,7 +97,8 @@
     "category": "bim-cad",
     "description": "Open source IFC library and geometry engine powering BIM interoperability tools.",
     "license": "LGPL-3.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "QGIS",
@@ -97,7 +107,8 @@
     "category": "gis-geospatial",
     "description": "Full-featured, free and open-source geographic information system for spatial data management and analysis.",
     "license": "GPL-2.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "GDAL",
@@ -106,7 +117,8 @@
     "category": "gis-geospatial",
     "description": "Translator library for raster and vector geospatial data formats, powering most GIS software under the hood.",
     "license": "MIT",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "CloudCompare",
@@ -115,7 +127,8 @@
     "category": "surveying-point-cloud",
     "description": "3D point cloud and mesh processing software, widely used for comparing and analyzing laser-scan survey data.",
     "license": "GPL-2.0",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "PDAL",
@@ -124,7 +137,8 @@
     "category": "surveying-point-cloud",
     "description": "Point Data Abstraction Library: translates and processes point cloud data, the GDAL of point clouds.",
     "license": "BSD-3-Clause",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "C++"
   },
   {
     "name": "PyGSLIB",
@@ -133,6 +147,7 @@
     "category": "mining-engineering",
     "description": "Open-source geostatistics and mineral resource estimation toolkit, wrapping the classic GSLIB Fortran code in Python.",
     "license": "MIT",
-    "added": "2026-07-30"
+    "added": "2026-07-30",
+    "language": "Python"
   }
 ]

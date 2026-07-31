@@ -1,0 +1,11 @@
+# Local design concepts and previews — not part of the public repo
+concepts.html
+concepts-light.html
+concepts-cards.html
+headers-check.html
+assets/concepts/
+.claude/
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
