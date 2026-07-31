@@ -3,9 +3,9 @@
 from data/tools.json.
 
 Stdlib only. Fetches live star counts from the GitHub API (used only for
-sort order inside each category). Everything shown in the README that can
-go stale -- star counts, last-commit dates -- is a shields.io badge, which
-GitHub renders live on every page view, so no scheduled job is needed.
+sort order inside each category). The star counts shown in the README are
+shields.io badges, which GitHub renders live on every page view, so no
+scheduled job is needed to keep them current.
 
 SEO/AEO notes:
 - Tool names, descriptions, and category blurbs are real text (crawlable
@@ -222,7 +222,6 @@ def render_card(t, short_label):
         f'<sub>{esc(t["description"])}</sub><br><br>\n'
         f'<img src="https://img.shields.io/badge/-{lang}-24292f?style=flat-square" alt="Written in {esc(t["language"])}">\n'
         f'<img src="https://img.shields.io/github/stars/{t["repo"]}?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for {t["repo"]}">\n'
-        f'<img src="https://img.shields.io/github/last-commit/{t["repo"]}?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for {t["repo"]}">\n'
         f"</td>"
     )
 
@@ -238,7 +237,7 @@ def render_card_grid(tools, short_label):
 
 INTRO = """**Awesome Civil Engineering** is a curated directory of free, open-source civil engineering software — structural analysis and finite element analysis (FEA), geotechnical engineering and soil mechanics, earthquake and seismic hazard analysis, traffic and transportation simulation, hydraulics and stormwater modeling, BIM/CAD, GIS and geospatial processing, land surveying and point cloud tools, and mining geostatistics.
 
-Every entry is a real, public, open-source project you can download and use today. Star counts and last-commit dates are live badges rendered on every page view, so the numbers stay current automatically — no scheduled job required. To add a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — one pull request, one entry."""
+Every entry is a real, public, open-source project you can download and use today. Star counts are live badges rendered on every page view, so the numbers stay current automatically — no scheduled job required. To add a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — one pull request, one entry."""
 
 FAQ_ITEMS = [
     (
