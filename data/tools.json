@@ -37,6 +37,42 @@
     "pinned": true
   },
   {
+    "name": "OpenQuake Engine",
+    "repo": "gem/oq-engine",
+    "homepage": "https://www.globalquakemodel.org",
+    "category": "earthquake-engineering",
+    "description": "Seismic hazard and risk analysis engine developed by the Global Earthquake Model (GEM) Foundation.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "SUMO",
+    "repo": "eclipse-sumo/sumo",
+    "homepage": "https://eclipse.dev/sumo/",
+    "category": "transportation-engineering",
+    "description": "Microscopic, multi-modal traffic simulation package for modeling urban and highway transportation networks.",
+    "license": "EPL-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "WNTR",
+    "repo": "USEPA/WNTR",
+    "homepage": "https://www.epa.gov/water-research/water-network-tool-resilience-wntr",
+    "category": "environmental-engineering",
+    "description": "Python package to simulate and analyze the resilience of water distribution networks under disruptive events.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "EPA SWMM",
+    "repo": "USEPA/Stormwater-Management-Model",
+    "homepage": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+    "category": "hydraulics-water-resources",
+    "description": "Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems.",
+    "license": "Public Domain",
+    "added": "2026-07-30"
+  },
+  {
     "name": "FreeCAD",
     "repo": "FreeCAD/FreeCAD",
     "homepage": "https://www.freecad.org",
@@ -73,12 +109,30 @@
     "added": "2026-07-30"
   },
   {
-    "name": "EPA SWMM",
-    "repo": "USEPA/Stormwater-Management-Model",
-    "homepage": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
-    "category": "hydraulics-water-resources",
-    "description": "Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems.",
-    "license": "Public Domain",
+    "name": "CloudCompare",
+    "repo": "CloudCompare/CloudCompare",
+    "homepage": "https://cloudcompare.org",
+    "category": "surveying-point-cloud",
+    "description": "3D point cloud and mesh processing software, widely used for comparing and analyzing laser-scan survey data.",
+    "license": "GPL-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "PDAL",
+    "repo": "PDAL/PDAL",
+    "homepage": "https://pdal.org",
+    "category": "surveying-point-cloud",
+    "description": "Point Data Abstraction Library: translates and processes point cloud data, the GDAL of point clouds.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "PyGSLIB",
+    "repo": "opengeostat/pygslib",
+    "homepage": "https://opengeostat.github.io/pygslib/",
+    "category": "mining-engineering",
+    "description": "Open-source geostatistics and mineral resource estimation toolkit, wrapping the classic GSLIB Fortran code in Python.",
+    "license": "MIT",
     "added": "2026-07-30"
   }
 ]
