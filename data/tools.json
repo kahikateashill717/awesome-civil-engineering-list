@@ -1,0 +1,84 @@
+[
+  {
+    "name": "OpenSees",
+    "repo": "OpenSees/OpenSees",
+    "homepage": "https://opensees.berkeley.edu",
+    "category": "structural-engineering",
+    "description": "Open-source framework for simulating the seismic response of structural and geotechnical systems.",
+    "license": "Custom (BSD-style)",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "PyNite",
+    "repo": "JWock82/PyNite",
+    "homepage": "https://pynite.readthedocs.io",
+    "category": "structural-engineering",
+    "description": "Simple, elastic 3D finite element analysis library for structural engineering, written in Python.",
+    "license": "MIT",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "anaStruct",
+    "repo": "anastruct/anaStruct",
+    "homepage": "https://anastruct.readthedocs.io",
+    "category": "structural-engineering",
+    "description": "Analyse 2D frames and trusses for slender structures: bending moments, shear, axial forces, and displacements.",
+    "license": "LGPL-3.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "GeoEq",
+    "repo": "geoeq/geoeq",
+    "homepage": "https://geoeq.org",
+    "category": "geotechnical-engineering",
+    "description": "170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30",
+    "pinned": true
+  },
+  {
+    "name": "FreeCAD",
+    "repo": "FreeCAD/FreeCAD",
+    "homepage": "https://www.freecad.org",
+    "category": "bim-cad",
+    "description": "Free and open-source multiplatform 3D parametric modeler, widely used for mechanical and architectural design.",
+    "license": "LGPL-2.1",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "IfcOpenShell",
+    "repo": "IfcOpenShell/IfcOpenShell",
+    "homepage": "https://ifcopenshell.org",
+    "category": "bim-cad",
+    "description": "Open source IFC library and geometry engine powering BIM interoperability tools.",
+    "license": "LGPL-3.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "QGIS",
+    "repo": "qgis/QGIS",
+    "homepage": "https://qgis.org",
+    "category": "gis-geospatial",
+    "description": "Full-featured, free and open-source geographic information system for spatial data management and analysis.",
+    "license": "GPL-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "GDAL",
+    "repo": "OSGeo/gdal",
+    "homepage": "https://gdal.org",
+    "category": "gis-geospatial",
+    "description": "Translator library for raster and vector geospatial data formats, powering most GIS software under the hood.",
+    "license": "MIT",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "EPA SWMM",
+    "repo": "USEPA/Stormwater-Management-Model",
+    "homepage": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+    "category": "hydraulics-water-resources",
+    "description": "Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems.",
+    "license": "Public Domain",
+    "added": "2026-07-30"
+  }
+]
