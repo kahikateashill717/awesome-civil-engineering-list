@@ -62,7 +62,7 @@
   {
     "name": "WNTR",
     "repo": "USEPA/WNTR",
-    "homepage": "https://www.epa.gov/water-research/water-network-tool-resilience-wntr",
+    "homepage": "https://usepa.github.io/WNTR/",
     "category": "environmental-engineering",
     "description": "Python package to simulate and analyze the resilience of water distribution networks under disruptive events.",
     "license": "BSD-3-Clause",

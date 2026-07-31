@@ -50,7 +50,7 @@ Open-source transportation engineering software for traffic simulation, highway 
 Open-source environmental engineering tools for water quality modeling and infrastructure resilience analysis.
 
 - [FloPy](https://flopy.readthedocs.io): Python package to create, run, and post-process MODFLOW-based groundwater models. (License: Public Domain (USGS); Language: Python; Source: https://github.com/modflowpy/flopy)
-- [WNTR](https://www.epa.gov/water-research/water-network-tool-resilience-wntr): Python package to simulate and analyze the resilience of water distribution networks under disruptive events. (License: BSD-3-Clause; Language: Python; Source: https://github.com/USEPA/WNTR)
+- [WNTR](https://usepa.github.io/WNTR/): Python package to simulate and analyze the resilience of water distribution networks under disruptive events. (License: BSD-3-Clause; Language: Python; Source: https://github.com/USEPA/WNTR)
 - [MODFLOW 6](https://modflow6.readthedocs.io/): USGS modular hydrologic model: the industry-standard simulator for groundwater flow and transport. (License: Public Domain (USGS); Language: Fortran; Source: https://github.com/MODFLOW-ORG/modflow6)
 - [QSDsan](https://qsdsan.com): Quantitative sustainable design of sanitation and resource recovery systems: process modeling and life cycle assessment. (License: NCSA (UIUC); Language: Python; Source: https://github.com/QSD-Group/QSDsan)
 

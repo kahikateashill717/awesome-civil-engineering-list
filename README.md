@@ -221,7 +221,7 @@ Open-source environmental engineering tools for water quality modeling and infra
 <img src="https://img.shields.io/github/last-commit/modflowpy/flopy?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for modflowpy/flopy">
 </td>
 <td width="25%" valign="top">
-<a href="https://www.epa.gov/water-research/water-network-tool-resilience-wntr"><b>WNTR</b></a><br>
+<a href="https://usepa.github.io/WNTR/"><b>WNTR</b></a><br>
 <sub><b>ENVIRONMENTAL</b></sub><br><br>
 <sub>Python package to simulate and analyze the resilience of water distribution networks under disruptive events.</sub><br><br>
 <img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
