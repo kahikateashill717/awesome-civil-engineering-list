@@ -10,9 +10,14 @@ Every entry below is a real, public, open-source project. Stars and activity are
 
 - [Structural Engineering & Analysis](#structural-engineering--analysis)
 - [Geotechnical Engineering](#geotechnical-engineering)
+- [Earthquake Engineering](#earthquake-engineering)
+- [Transportation Engineering](#transportation-engineering)
+- [Environmental Engineering](#environmental-engineering)
+- [Hydraulics & Water Resources](#hydraulics--water-resources)
 - [BIM & CAD](#bim--cad)
 - [GIS & Geospatial](#gis--geospatial)
-- [Hydraulics & Water Resources](#hydraulics--water-resources)
+- [Surveying & Point Cloud Processing](#surveying--point-cloud-processing)
+- [Mining Engineering](#mining-engineering)
 - [FAQ](#faq)
 
 ## Structural Engineering & Analysis
@@ -29,6 +34,30 @@ Every entry below is a real, public, open-source project. Stars and activity are
 |---|---|---|---|
 | [GeoEq](https://geoeq.org) | 170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability. | Apache-2.0 | ![stars](https://img.shields.io/github/stars/geoeq/geoeq?style=flat-square&label=%E2%98%85) |
 
+## Earthquake Engineering
+
+| Tool | What it is | License | Stars |
+|---|---|---|---|
+| [OpenQuake Engine](https://www.globalquakemodel.org) | Seismic hazard and risk analysis engine developed by the Global Earthquake Model (GEM) Foundation. | AGPL-3.0 | ![stars](https://img.shields.io/github/stars/gem/oq-engine?style=flat-square&label=%E2%98%85) |
+
+## Transportation Engineering
+
+| Tool | What it is | License | Stars |
+|---|---|---|---|
+| [SUMO](https://eclipse.dev/sumo/) | Microscopic, multi-modal traffic simulation package for modeling urban and highway transportation networks. | EPL-2.0 | ![stars](https://img.shields.io/github/stars/eclipse-sumo/sumo?style=flat-square&label=%E2%98%85) |
+
+## Environmental Engineering
+
+| Tool | What it is | License | Stars |
+|---|---|---|---|
+| [WNTR](https://www.epa.gov/water-research/water-network-tool-resilience-wntr) | Python package to simulate and analyze the resilience of water distribution networks under disruptive events. | BSD-3-Clause | ![stars](https://img.shields.io/github/stars/USEPA/WNTR?style=flat-square&label=%E2%98%85) |
+
+## Hydraulics & Water Resources
+
+| Tool | What it is | License | Stars |
+|---|---|---|---|
+| [EPA SWMM](https://www.epa.gov/water-research/storm-water-management-model-swmm) | Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems. | Public Domain | ![stars](https://img.shields.io/github/stars/USEPA/Stormwater-Management-Model?style=flat-square&label=%E2%98%85) |
+
 ## BIM & CAD
 
 | Tool | What it is | License | Stars |
@@ -43,11 +72,18 @@ Every entry below is a real, public, open-source project. Stars and activity are
 | [QGIS](https://qgis.org) | Full-featured, free and open-source geographic information system for spatial data management and analysis. | GPL-2.0 | ![stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat-square&label=%E2%98%85) |
 | [GDAL](https://gdal.org) | Translator library for raster and vector geospatial data formats, powering most GIS software under the hood. | MIT | ![stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat-square&label=%E2%98%85) |
 
-## Hydraulics & Water Resources
+## Surveying & Point Cloud Processing
 
 | Tool | What it is | License | Stars |
 |---|---|---|---|
-| [EPA SWMM](https://www.epa.gov/water-research/storm-water-management-model-swmm) | Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems. | Public Domain | ![stars](https://img.shields.io/github/stars/USEPA/Stormwater-Management-Model?style=flat-square&label=%E2%98%85) |
+| [CloudCompare](https://cloudcompare.org) | 3D point cloud and mesh processing software, widely used for comparing and analyzing laser-scan survey data. | GPL-2.0 | ![stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=flat-square&label=%E2%98%85) |
+| [PDAL](https://pdal.org) | Point Data Abstraction Library: translates and processes point cloud data, the GDAL of point clouds. | BSD-3-Clause | ![stars](https://img.shields.io/github/stars/PDAL/PDAL?style=flat-square&label=%E2%98%85) |
+
+## Mining Engineering
+
+| Tool | What it is | License | Stars |
+|---|---|---|---|
+| [PyGSLIB](https://opengeostat.github.io/pygslib/) | Open-source geostatistics and mineral resource estimation toolkit, wrapping the classic GSLIB Fortran code in Python. | MIT | ![stars](https://img.shields.io/github/stars/opengeostat/pygslib?style=flat-square&label=%E2%98%85) |
 
 ## FAQ
 
@@ -57,8 +93,17 @@ Every entry below is a real, public, open-source project. Stars and activity are
 **What is the best open-source structural analysis software?**
 [OpenSees](https://opensees.berkeley.edu) is the standard framework for seismic/structural simulation in research; [PyNite](https://pynite.readthedocs.io) and [anaStruct](https://anastruct.readthedocs.io) are lightweight Python options for simpler 3D/2D frame analysis.
 
+**What is the best open-source software for seismic hazard analysis?**
+[OpenQuake Engine](https://www.globalquakemodel.org), developed by the Global Earthquake Model Foundation, is the leading open-source engine for seismic hazard and risk assessment.
+
+**What is the best open-source traffic simulation software?**
+[SUMO](https://eclipse.dev/sumo/) is the most widely used open-source microscopic traffic simulator for modeling road networks and multi-modal transport.
+
 **What is the best open-source GIS software?**
 [QGIS](https://qgis.org) is the leading full desktop GIS application; [GDAL](https://gdal.org) is the underlying library most GIS tools use for reading and writing geospatial data formats.
+
+**What is the best open-source tool for processing point cloud survey data?**
+[CloudCompare](https://cloudcompare.org) is a widely used desktop application for comparing and analyzing point clouds; [PDAL](https://pdal.org) is the underlying library for translating point cloud data formats.
 
 ## Contributing
 
