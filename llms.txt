@@ -15,37 +15,54 @@ Open-source structural analysis software: finite element analysis (FEA) framewor
 
 - [OpenSees](https://opensees.berkeley.edu): Open-source framework for simulating the seismic response of structural and geotechnical systems. (License: Custom (BSD-style); Language: C++; Source: https://github.com/OpenSees/OpenSees)
 - [PyNite](https://pynite.readthedocs.io): Simple, elastic 3D finite element analysis library for structural engineering, written in Python. (License: MIT; Language: Python; Source: https://github.com/JWock82/PyNite)
+- [sectionproperties](https://sectionproperties.rtfd.io): Analysis of arbitrary structural cross-sections in Python: section properties, warping, and stress computation. (License: MIT; Language: Python; Source: https://github.com/robbievanleeuwen/section-properties)
 - [anaStruct](https://anastruct.readthedocs.io): Analyse 2D frames and trusses for slender structures: bending moments, shear, axial forces, and displacements. (License: LGPL-3.0; Language: Python; Source: https://github.com/anastruct/anaStruct)
+- [XC](http://www.xcengineering.xyz/html_files/software.html): Open-source finite element analysis program oriented to civil and structural engineering problems. (License: GPL-3.0; Language: C++; Source: https://github.com/xcfem/xc)
 
 ## Geotechnical Engineering
 
 Open-source geotechnical engineering tools for soil mechanics, foundation design, SPT/CPT interpretation, bearing capacity, settlement, liquefaction, and slope stability analysis.
 
 - [GeoEq](https://geoeq.org): 170+ validated Python functions for soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability. (License: Apache-2.0; Language: Python; Source: https://github.com/geoeq/geoeq)
+- [groundhog](https://github.com/snakesonabrain/groundhog): General-purpose geotechnical Python library for site investigation data, foundation design, and soil profile analysis. (License: GPL-3.0; Language: Python; Source: https://github.com/snakesonabrain/groundhog)
+- [pygef](https://cemsbv.github.io/pygef): Parse and analyse CPT and borehole files (GEF/XML) from geotechnical site investigations into dataframes. (License: MIT; Language: Python; Source: https://github.com/cemsbv/pygef)
+- [geolysis](https://docs.geolysis.io): Python package for geotechnical analysis: soil classification, SPT corrections, and allowable bearing capacity. (License: MIT; Language: Python; Source: https://github.com/patrickboateng/geolysis)
 
 ## Earthquake Engineering
 
 Open-source earthquake engineering software for seismic hazard assessment, ground motion modeling, and earthquake risk analysis.
 
+- [ObsPy](https://www.obspy.org): Python framework for processing seismological data: waveforms, event catalogs, and station metadata. (License: LGPL-3.0; Language: Python; Source: https://github.com/obspy/obspy)
 - [OpenQuake Engine](https://www.globalquakemodel.org): Seismic hazard and risk analysis engine developed by the Global Earthquake Model (GEM) Foundation. (License: AGPL-3.0; Language: Python; Source: https://github.com/gem/oq-engine)
+- [gmprocess](https://github.com/usgs/groundmotion-processing): USGS software for automated processing of earthquake ground-motion records. (License: Public Domain (USGS); Language: Python; Source: https://github.com/usgs/groundmotion-processing)
+- [eqsig](https://eqsig.readthedocs.io): Python library for seismic signal processing: response spectra, Arias intensity, and ground-motion metrics. (License: MIT; Language: Python; Source: https://github.com/eng-tools/eqsig)
 
 ## Transportation Engineering
 
 Open-source transportation engineering software for traffic simulation, highway modeling, and multi-modal transport network analysis.
 
+- [A/B Street](https://a-b-street.github.io/docs/): Transportation planning and traffic simulation game exploring how small street changes affect a city. (License: Apache-2.0; Language: Rust; Source: https://github.com/a-b-street/abstreet)
 - [SUMO](https://eclipse.dev/sumo/): Microscopic, multi-modal traffic simulation package for modeling urban and highway transportation networks. (License: EPL-2.0; Language: C++; Source: https://github.com/eclipse-sumo/sumo)
+- [MATSim](https://matsim.org): Agent-based transport simulation framework for large-scale, activity-based travel demand modeling. (License: GPL-2.0; Language: Java; Source: https://github.com/matsim-org/matsim-libs)
+- [AequilibraE](https://www.aequilibrae.com): Python transportation modeling package: network editing, traffic assignment, and matrix estimation, with a QGIS plugin. (License: MIT (modified); Language: Python; Source: https://github.com/AequilibraE/aequilibrae)
 
 ## Environmental Engineering
 
 Open-source environmental engineering tools for water quality modeling and infrastructure resilience analysis.
 
+- [FloPy](https://flopy.readthedocs.io): Python package to create, run, and post-process MODFLOW-based groundwater models. (License: Public Domain (USGS); Language: Python; Source: https://github.com/modflowpy/flopy)
 - [WNTR](https://www.epa.gov/water-research/water-network-tool-resilience-wntr): Python package to simulate and analyze the resilience of water distribution networks under disruptive events. (License: BSD-3-Clause; Language: Python; Source: https://github.com/USEPA/WNTR)
+- [MODFLOW 6](https://modflow6.readthedocs.io/): USGS modular hydrologic model: the industry-standard simulator for groundwater flow and transport. (License: Public Domain (USGS); Language: Fortran; Source: https://github.com/MODFLOW-ORG/modflow6)
+- [QSDsan](https://qsdsan.com): Quantitative sustainable design of sanitation and resource recovery systems: process modeling and life cycle assessment. (License: NCSA (UIUC); Language: Python; Source: https://github.com/QSD-Group/QSDsan)
 
 ## Hydraulics & Water Resources
 
 Open-source hydraulic and hydrology software for stormwater management, sewer systems, and water resources engineering.
 
+- [EPANET](https://www.epa.gov/water-research/epanet): Hydraulic and water quality solver for pressurized drinking-water distribution networks (community repository). (License: MIT; Language: C; Source: https://github.com/OpenWaterAnalytics/EPANET)
+- [PySWMM](https://www.pyswmm.org): Python interface to EPA SWMM: step through stormwater simulations and control hydraulic elements in real time. (License: BSD-2-Clause; Language: Python; Source: https://github.com/pyswmm/pyswmm)
 - [EPA SWMM](https://www.epa.gov/water-research/storm-water-management-model-swmm): Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems. (License: Public Domain; Language: C; Source: https://github.com/USEPA/Stormwater-Management-Model)
+- [ANUGA](https://anuga.anu.edu.au): Hydrodynamic modeling of floods, storm surges, and tsunamis using the shallow water wave equation. (License: Apache-2.0; Language: Python; Source: https://github.com/anuga-community/anuga_core)
 
 ## BIM & CAD
 
@@ -53,18 +70,25 @@ Open-source BIM and CAD software: Building Information Modeling, IFC interoperab
 
 - [FreeCAD](https://www.freecad.org): Free and open-source multiplatform 3D parametric modeler, widely used for mechanical and architectural design. (License: LGPL-2.1; Language: C++; Source: https://github.com/FreeCAD/FreeCAD)
 - [IfcOpenShell](https://ifcopenshell.org): Open source IFC library and geometry engine powering BIM interoperability tools. (License: LGPL-3.0; Language: C++; Source: https://github.com/IfcOpenShell/IfcOpenShell)
+- [That Open Engine](https://thatopen.github.io/engine_web-ifc/demo): Fast IFC parsing and geometry engine for reading and writing BIM models in JavaScript and WebAssembly. (License: MPL-2.0; Language: TypeScript; Source: https://github.com/ThatOpen/engine_web-ifc)
+- [Speckle](https://speckle.systems): Collaborative data hub for AEC: exchange 3D models and BIM data between design tools in real time. (License: Apache-2.0; Language: TypeScript; Source: https://github.com/specklesystems/speckle-server)
 
 ## GIS & Geospatial
 
 Open-source GIS software and geospatial libraries for spatial data management, mapping, and geographic analysis in civil and infrastructure projects.
 
+- [AcadGIS](https://acadgis.com): Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python. (License: Apache-2.0; Language: Python; Source: https://github.com/riponcm/AcadGIS)
 - [QGIS](https://qgis.org): Full-featured, free and open-source geographic information system for spatial data management and analysis. (License: GPL-2.0; Language: C++; Source: https://github.com/qgis/QGIS)
 - [GDAL](https://gdal.org): Translator library for raster and vector geospatial data formats, powering most GIS software under the hood. (License: MIT; Language: C++; Source: https://github.com/OSGeo/gdal)
+- [GeoPandas](https://geopandas.org): Pandas-based Python library for geospatial vector data: geometry operations, spatial joins, and mapping. (License: BSD-3-Clause; Language: Python; Source: https://github.com/geopandas/geopandas)
+- [GeoLibre](https://geolibre.app): Lightweight, cloud-native GIS platform that runs in the browser, on desktop, on mobile, and inside Jupyter notebooks. (License: MIT; Language: TypeScript; Source: https://github.com/opengeos/GeoLibre)
 
 ## Surveying & Point Cloud Processing
 
 Open-source surveying and point cloud software for LiDAR data, laser scanning, and 3D terrain processing.
 
+- [Open3D](https://www.open3d.org): Modern library for 3D data processing: point clouds, meshes, registration, and reconstruction in Python and C++. (License: MIT; Language: C++; Source: https://github.com/isl-org/Open3D)
+- [Potree](http://potree.org): WebGL viewer for massive point clouds: stream and explore billions of laser-scan points in the browser. (License: BSD-2-Clause; Language: JavaScript; Source: https://github.com/potree/potree)
 - [CloudCompare](https://cloudcompare.org): 3D point cloud and mesh processing software, widely used for comparing and analyzing laser-scan survey data. (License: GPL-2.0; Language: C++; Source: https://github.com/CloudCompare/CloudCompare)
 - [PDAL](https://pdal.org): Point Data Abstraction Library: translates and processes point cloud data, the GDAL of point clouds. (License: BSD-3-Clause; Language: C++; Source: https://github.com/PDAL/PDAL)
 
@@ -72,6 +96,9 @@ Open-source surveying and point cloud software for LiDAR data, laser scanning, a
 
 Open-source mining engineering tools for geostatistics and mineral resource estimation.
 
+- [GemPy](https://gempy.org): 3D structural geological modeling in Python with implicit interpolation and probabilistic support. (License: EUPL-1.2; Language: Python; Source: https://github.com/gempy-project/gempy)
+- [GSTools](https://geostat-framework.org): Geostatistical toolbox: variogram estimation, kriging, random field generation, and spatial interpolation. (License: LGPL-3.0; Language: Python; Source: https://github.com/GeoStat-Framework/GSTools)
+- [SciKit-GStat](https://mmaelicke.github.io/scikit-gstat/): SciPy-style variogram estimation and geostatistics toolbox for Python. (License: MIT; Language: Python; Source: https://github.com/mmaelicke/scikit-gstat)
 - [PyGSLIB](https://opengeostat.github.io/pygslib/): Open-source geostatistics and mineral resource estimation toolkit, wrapping the classic GSLIB Fortran code in Python. (License: MIT; Language: Python; Source: https://github.com/opengeostat/pygslib)
 
 ## FAQ

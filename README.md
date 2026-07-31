@@ -51,12 +51,30 @@ Open-source structural analysis software: finite element analysis (FEA) framewor
 <img src="https://img.shields.io/github/last-commit/JWock82/PyNite?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for JWock82/PyNite">
 </td>
 <td width="25%" valign="top">
+<a href="https://sectionproperties.rtfd.io"><b>sectionproperties</b></a><br>
+<sub><b>STRUCTURAL</b></sub><br><br>
+<sub>Analysis of arbitrary structural cross-sections in Python: section properties, warping, and stress computation.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/robbievanleeuwen/section-properties?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for robbievanleeuwen/section-properties">
+<img src="https://img.shields.io/github/last-commit/robbievanleeuwen/section-properties?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for robbievanleeuwen/section-properties">
+</td>
+<td width="25%" valign="top">
 <a href="https://anastruct.readthedocs.io"><b>anaStruct</b></a><br>
 <sub><b>STRUCTURAL</b></sub><br><br>
 <sub>Analyse 2D frames and trusses for slender structures: bending moments, shear, axial forces, and displacements.</sub><br><br>
 <img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
 <img src="https://img.shields.io/github/stars/anastruct/anaStruct?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for anastruct/anaStruct">
 <img src="https://img.shields.io/github/last-commit/anastruct/anaStruct?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for anastruct/anaStruct">
+</td>
+</tr>
+<tr>
+<td width="25%" valign="top">
+<a href="http://www.xcengineering.xyz/html_files/software.html"><b>XC</b></a><br>
+<sub><b>STRUCTURAL</b></sub><br><br>
+<sub>Open-source finite element analysis program oriented to civil and structural engineering problems.</sub><br><br>
+<img src="https://img.shields.io/badge/-C%2B%2B-24292f?style=flat-square" alt="Written in C++">
+<img src="https://img.shields.io/github/stars/xcfem/xc?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for xcfem/xc">
+<img src="https://img.shields.io/github/last-commit/xcfem/xc?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for xcfem/xc">
 </td>
 </tr>
 </table>
@@ -76,6 +94,30 @@ Open-source geotechnical engineering tools for soil mechanics, foundation design
 <img src="https://img.shields.io/github/stars/geoeq/geoeq?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for geoeq/geoeq">
 <img src="https://img.shields.io/github/last-commit/geoeq/geoeq?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for geoeq/geoeq">
 </td>
+<td width="25%" valign="top">
+<a href="https://github.com/snakesonabrain/groundhog"><b>groundhog</b></a><br>
+<sub><b>GEOTECHNICAL</b></sub><br><br>
+<sub>General-purpose geotechnical Python library for site investigation data, foundation design, and soil profile analysis.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/snakesonabrain/groundhog?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for snakesonabrain/groundhog">
+<img src="https://img.shields.io/github/last-commit/snakesonabrain/groundhog?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for snakesonabrain/groundhog">
+</td>
+<td width="25%" valign="top">
+<a href="https://cemsbv.github.io/pygef"><b>pygef</b></a><br>
+<sub><b>GEOTECHNICAL</b></sub><br><br>
+<sub>Parse and analyse CPT and borehole files (GEF/XML) from geotechnical site investigations into dataframes.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/cemsbv/pygef?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for cemsbv/pygef">
+<img src="https://img.shields.io/github/last-commit/cemsbv/pygef?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for cemsbv/pygef">
+</td>
+<td width="25%" valign="top">
+<a href="https://docs.geolysis.io"><b>geolysis</b></a><br>
+<sub><b>GEOTECHNICAL</b></sub><br><br>
+<sub>Python package for geotechnical analysis: soil classification, SPT corrections, and allowable bearing capacity.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/patrickboateng/geolysis?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for patrickboateng/geolysis">
+<img src="https://img.shields.io/github/last-commit/patrickboateng/geolysis?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for patrickboateng/geolysis">
+</td>
 </tr>
 </table>
 
@@ -87,12 +129,36 @@ Open-source earthquake engineering software for seismic hazard assessment, groun
 <table>
 <tr>
 <td width="25%" valign="top">
+<a href="https://www.obspy.org"><b>ObsPy</b></a><br>
+<sub><b>EARTHQUAKE</b></sub><br><br>
+<sub>Python framework for processing seismological data: waveforms, event catalogs, and station metadata.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/obspy/obspy?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for obspy/obspy">
+<img src="https://img.shields.io/github/last-commit/obspy/obspy?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for obspy/obspy">
+</td>
+<td width="25%" valign="top">
 <a href="https://www.globalquakemodel.org"><b>OpenQuake Engine</b></a><br>
 <sub><b>EARTHQUAKE</b></sub><br><br>
 <sub>Seismic hazard and risk analysis engine developed by the Global Earthquake Model (GEM) Foundation.</sub><br><br>
 <img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
 <img src="https://img.shields.io/github/stars/gem/oq-engine?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for gem/oq-engine">
 <img src="https://img.shields.io/github/last-commit/gem/oq-engine?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for gem/oq-engine">
+</td>
+<td width="25%" valign="top">
+<a href="https://github.com/usgs/groundmotion-processing"><b>gmprocess</b></a><br>
+<sub><b>EARTHQUAKE</b></sub><br><br>
+<sub>USGS software for automated processing of earthquake ground-motion records.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/usgs/groundmotion-processing?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for usgs/groundmotion-processing">
+<img src="https://img.shields.io/github/last-commit/usgs/groundmotion-processing?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for usgs/groundmotion-processing">
+</td>
+<td width="25%" valign="top">
+<a href="https://eqsig.readthedocs.io"><b>eqsig</b></a><br>
+<sub><b>EARTHQUAKE</b></sub><br><br>
+<sub>Python library for seismic signal processing: response spectra, Arias intensity, and ground-motion metrics.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/eng-tools/eqsig?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for eng-tools/eqsig">
+<img src="https://img.shields.io/github/last-commit/eng-tools/eqsig?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for eng-tools/eqsig">
 </td>
 </tr>
 </table>
@@ -105,12 +171,36 @@ Open-source transportation engineering software for traffic simulation, highway 
 <table>
 <tr>
 <td width="25%" valign="top">
+<a href="https://a-b-street.github.io/docs/"><b>A/B Street</b></a><br>
+<sub><b>TRANSPORTATION</b></sub><br><br>
+<sub>Transportation planning and traffic simulation game exploring how small street changes affect a city.</sub><br><br>
+<img src="https://img.shields.io/badge/-Rust-24292f?style=flat-square" alt="Written in Rust">
+<img src="https://img.shields.io/github/stars/a-b-street/abstreet?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for a-b-street/abstreet">
+<img src="https://img.shields.io/github/last-commit/a-b-street/abstreet?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for a-b-street/abstreet">
+</td>
+<td width="25%" valign="top">
 <a href="https://eclipse.dev/sumo/"><b>SUMO</b></a><br>
 <sub><b>TRANSPORTATION</b></sub><br><br>
 <sub>Microscopic, multi-modal traffic simulation package for modeling urban and highway transportation networks.</sub><br><br>
 <img src="https://img.shields.io/badge/-C%2B%2B-24292f?style=flat-square" alt="Written in C++">
 <img src="https://img.shields.io/github/stars/eclipse-sumo/sumo?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for eclipse-sumo/sumo">
 <img src="https://img.shields.io/github/last-commit/eclipse-sumo/sumo?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for eclipse-sumo/sumo">
+</td>
+<td width="25%" valign="top">
+<a href="https://matsim.org"><b>MATSim</b></a><br>
+<sub><b>TRANSPORTATION</b></sub><br><br>
+<sub>Agent-based transport simulation framework for large-scale, activity-based travel demand modeling.</sub><br><br>
+<img src="https://img.shields.io/badge/-Java-24292f?style=flat-square" alt="Written in Java">
+<img src="https://img.shields.io/github/stars/matsim-org/matsim-libs?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for matsim-org/matsim-libs">
+<img src="https://img.shields.io/github/last-commit/matsim-org/matsim-libs?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for matsim-org/matsim-libs">
+</td>
+<td width="25%" valign="top">
+<a href="https://www.aequilibrae.com"><b>AequilibraE</b></a><br>
+<sub><b>TRANSPORTATION</b></sub><br><br>
+<sub>Python transportation modeling package: network editing, traffic assignment, and matrix estimation, with a QGIS plugin.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/AequilibraE/aequilibrae?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for AequilibraE/aequilibrae">
+<img src="https://img.shields.io/github/last-commit/AequilibraE/aequilibrae?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for AequilibraE/aequilibrae">
 </td>
 </tr>
 </table>
@@ -123,12 +213,36 @@ Open-source environmental engineering tools for water quality modeling and infra
 <table>
 <tr>
 <td width="25%" valign="top">
+<a href="https://flopy.readthedocs.io"><b>FloPy</b></a><br>
+<sub><b>ENVIRONMENTAL</b></sub><br><br>
+<sub>Python package to create, run, and post-process MODFLOW-based groundwater models.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/modflowpy/flopy?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for modflowpy/flopy">
+<img src="https://img.shields.io/github/last-commit/modflowpy/flopy?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for modflowpy/flopy">
+</td>
+<td width="25%" valign="top">
 <a href="https://www.epa.gov/water-research/water-network-tool-resilience-wntr"><b>WNTR</b></a><br>
 <sub><b>ENVIRONMENTAL</b></sub><br><br>
 <sub>Python package to simulate and analyze the resilience of water distribution networks under disruptive events.</sub><br><br>
 <img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
 <img src="https://img.shields.io/github/stars/USEPA/WNTR?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for USEPA/WNTR">
 <img src="https://img.shields.io/github/last-commit/USEPA/WNTR?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for USEPA/WNTR">
+</td>
+<td width="25%" valign="top">
+<a href="https://modflow6.readthedocs.io/"><b>MODFLOW 6</b></a><br>
+<sub><b>ENVIRONMENTAL</b></sub><br><br>
+<sub>USGS modular hydrologic model: the industry-standard simulator for groundwater flow and transport.</sub><br><br>
+<img src="https://img.shields.io/badge/-Fortran-24292f?style=flat-square" alt="Written in Fortran">
+<img src="https://img.shields.io/github/stars/MODFLOW-ORG/modflow6?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for MODFLOW-ORG/modflow6">
+<img src="https://img.shields.io/github/last-commit/MODFLOW-ORG/modflow6?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for MODFLOW-ORG/modflow6">
+</td>
+<td width="25%" valign="top">
+<a href="https://qsdsan.com"><b>QSDsan</b></a><br>
+<sub><b>ENVIRONMENTAL</b></sub><br><br>
+<sub>Quantitative sustainable design of sanitation and resource recovery systems: process modeling and life cycle assessment.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/QSD-Group/QSDsan?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for QSD-Group/QSDsan">
+<img src="https://img.shields.io/github/last-commit/QSD-Group/QSDsan?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for QSD-Group/QSDsan">
 </td>
 </tr>
 </table>
@@ -141,12 +255,36 @@ Open-source hydraulic and hydrology software for stormwater management, sewer sy
 <table>
 <tr>
 <td width="25%" valign="top">
+<a href="https://www.epa.gov/water-research/epanet"><b>EPANET</b></a><br>
+<sub><b>HYDRAULICS</b></sub><br><br>
+<sub>Hydraulic and water quality solver for pressurized drinking-water distribution networks (community repository).</sub><br><br>
+<img src="https://img.shields.io/badge/-C-24292f?style=flat-square" alt="Written in C">
+<img src="https://img.shields.io/github/stars/OpenWaterAnalytics/EPANET?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for OpenWaterAnalytics/EPANET">
+<img src="https://img.shields.io/github/last-commit/OpenWaterAnalytics/EPANET?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for OpenWaterAnalytics/EPANET">
+</td>
+<td width="25%" valign="top">
+<a href="https://www.pyswmm.org"><b>PySWMM</b></a><br>
+<sub><b>HYDRAULICS</b></sub><br><br>
+<sub>Python interface to EPA SWMM: step through stormwater simulations and control hydraulic elements in real time.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/pyswmm/pyswmm?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for pyswmm/pyswmm">
+<img src="https://img.shields.io/github/last-commit/pyswmm/pyswmm?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for pyswmm/pyswmm">
+</td>
+<td width="25%" valign="top">
 <a href="https://www.epa.gov/water-research/storm-water-management-model-swmm"><b>EPA SWMM</b></a><br>
 <sub><b>HYDRAULICS</b></sub><br><br>
 <sub>Dynamic hydrology-hydraulic water quality simulation model for stormwater, wastewater, and combined sewer systems.</sub><br><br>
 <img src="https://img.shields.io/badge/-C-24292f?style=flat-square" alt="Written in C">
 <img src="https://img.shields.io/github/stars/USEPA/Stormwater-Management-Model?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for USEPA/Stormwater-Management-Model">
 <img src="https://img.shields.io/github/last-commit/USEPA/Stormwater-Management-Model?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for USEPA/Stormwater-Management-Model">
+</td>
+<td width="25%" valign="top">
+<a href="https://anuga.anu.edu.au"><b>ANUGA</b></a><br>
+<sub><b>HYDRAULICS</b></sub><br><br>
+<sub>Hydrodynamic modeling of floods, storm surges, and tsunamis using the shallow water wave equation.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/anuga-community/anuga_core?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for anuga-community/anuga_core">
+<img src="https://img.shields.io/github/last-commit/anuga-community/anuga_core?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for anuga-community/anuga_core">
 </td>
 </tr>
 </table>
@@ -174,6 +312,22 @@ Open-source BIM and CAD software: Building Information Modeling, IFC interoperab
 <img src="https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for IfcOpenShell/IfcOpenShell">
 <img src="https://img.shields.io/github/last-commit/IfcOpenShell/IfcOpenShell?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for IfcOpenShell/IfcOpenShell">
 </td>
+<td width="25%" valign="top">
+<a href="https://thatopen.github.io/engine_web-ifc/demo"><b>That Open Engine</b></a><br>
+<sub><b>BIM / CAD</b></sub><br><br>
+<sub>Fast IFC parsing and geometry engine for reading and writing BIM models in JavaScript and WebAssembly.</sub><br><br>
+<img src="https://img.shields.io/badge/-TypeScript-24292f?style=flat-square" alt="Written in TypeScript">
+<img src="https://img.shields.io/github/stars/ThatOpen/engine_web-ifc?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for ThatOpen/engine_web-ifc">
+<img src="https://img.shields.io/github/last-commit/ThatOpen/engine_web-ifc?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for ThatOpen/engine_web-ifc">
+</td>
+<td width="25%" valign="top">
+<a href="https://speckle.systems"><b>Speckle</b></a><br>
+<sub><b>BIM / CAD</b></sub><br><br>
+<sub>Collaborative data hub for AEC: exchange 3D models and BIM data between design tools in real time.</sub><br><br>
+<img src="https://img.shields.io/badge/-TypeScript-24292f?style=flat-square" alt="Written in TypeScript">
+<img src="https://img.shields.io/github/stars/specklesystems/speckle-server?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for specklesystems/speckle-server">
+<img src="https://img.shields.io/github/last-commit/specklesystems/speckle-server?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for specklesystems/speckle-server">
+</td>
 </tr>
 </table>
 
@@ -184,6 +338,14 @@ Open-source GIS software and geospatial libraries for spatial data management, m
 
 <table>
 <tr>
+<td width="25%" valign="top">
+<a href="https://acadgis.com"><b>AcadGIS</b></a><br>
+<sub><b>GIS · Pinned ⭐</b></sub><br><br>
+<sub>Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/riponcm/AcadGIS?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for riponcm/AcadGIS">
+<img src="https://img.shields.io/github/last-commit/riponcm/AcadGIS?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for riponcm/AcadGIS">
+</td>
 <td width="25%" valign="top">
 <a href="https://qgis.org"><b>QGIS</b></a><br>
 <sub><b>GIS</b></sub><br><br>
@@ -200,6 +362,24 @@ Open-source GIS software and geospatial libraries for spatial data management, m
 <img src="https://img.shields.io/github/stars/OSGeo/gdal?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for OSGeo/gdal">
 <img src="https://img.shields.io/github/last-commit/OSGeo/gdal?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for OSGeo/gdal">
 </td>
+<td width="25%" valign="top">
+<a href="https://geopandas.org"><b>GeoPandas</b></a><br>
+<sub><b>GIS</b></sub><br><br>
+<sub>Pandas-based Python library for geospatial vector data: geometry operations, spatial joins, and mapping.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/geopandas/geopandas?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for geopandas/geopandas">
+<img src="https://img.shields.io/github/last-commit/geopandas/geopandas?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for geopandas/geopandas">
+</td>
+</tr>
+<tr>
+<td width="25%" valign="top">
+<a href="https://geolibre.app"><b>GeoLibre</b></a><br>
+<sub><b>GIS</b></sub><br><br>
+<sub>Lightweight, cloud-native GIS platform that runs in the browser, on desktop, on mobile, and inside Jupyter notebooks.</sub><br><br>
+<img src="https://img.shields.io/badge/-TypeScript-24292f?style=flat-square" alt="Written in TypeScript">
+<img src="https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for opengeos/GeoLibre">
+<img src="https://img.shields.io/github/last-commit/opengeos/GeoLibre?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for opengeos/GeoLibre">
+</td>
 </tr>
 </table>
 
@@ -210,6 +390,22 @@ Open-source surveying and point cloud software for LiDAR data, laser scanning, a
 
 <table>
 <tr>
+<td width="25%" valign="top">
+<a href="https://www.open3d.org"><b>Open3D</b></a><br>
+<sub><b>SURVEYING</b></sub><br><br>
+<sub>Modern library for 3D data processing: point clouds, meshes, registration, and reconstruction in Python and C++.</sub><br><br>
+<img src="https://img.shields.io/badge/-C%2B%2B-24292f?style=flat-square" alt="Written in C++">
+<img src="https://img.shields.io/github/stars/isl-org/Open3D?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for isl-org/Open3D">
+<img src="https://img.shields.io/github/last-commit/isl-org/Open3D?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for isl-org/Open3D">
+</td>
+<td width="25%" valign="top">
+<a href="http://potree.org"><b>Potree</b></a><br>
+<sub><b>SURVEYING</b></sub><br><br>
+<sub>WebGL viewer for massive point clouds: stream and explore billions of laser-scan points in the browser.</sub><br><br>
+<img src="https://img.shields.io/badge/-JavaScript-24292f?style=flat-square" alt="Written in JavaScript">
+<img src="https://img.shields.io/github/stars/potree/potree?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for potree/potree">
+<img src="https://img.shields.io/github/last-commit/potree/potree?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for potree/potree">
+</td>
 <td width="25%" valign="top">
 <a href="https://cloudcompare.org"><b>CloudCompare</b></a><br>
 <sub><b>SURVEYING</b></sub><br><br>
@@ -236,6 +432,30 @@ Open-source mining engineering tools for geostatistics and mineral resource esti
 
 <table>
 <tr>
+<td width="25%" valign="top">
+<a href="https://gempy.org"><b>GemPy</b></a><br>
+<sub><b>MINING</b></sub><br><br>
+<sub>3D structural geological modeling in Python with implicit interpolation and probabilistic support.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/gempy-project/gempy?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for gempy-project/gempy">
+<img src="https://img.shields.io/github/last-commit/gempy-project/gempy?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for gempy-project/gempy">
+</td>
+<td width="25%" valign="top">
+<a href="https://geostat-framework.org"><b>GSTools</b></a><br>
+<sub><b>MINING</b></sub><br><br>
+<sub>Geostatistical toolbox: variogram estimation, kriging, random field generation, and spatial interpolation.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/GeoStat-Framework/GSTools?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for GeoStat-Framework/GSTools">
+<img src="https://img.shields.io/github/last-commit/GeoStat-Framework/GSTools?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for GeoStat-Framework/GSTools">
+</td>
+<td width="25%" valign="top">
+<a href="https://mmaelicke.github.io/scikit-gstat/"><b>SciKit-GStat</b></a><br>
+<sub><b>MINING</b></sub><br><br>
+<sub>SciPy-style variogram estimation and geostatistics toolbox for Python.</sub><br><br>
+<img src="https://img.shields.io/badge/-Python-24292f?style=flat-square" alt="Written in Python">
+<img src="https://img.shields.io/github/stars/mmaelicke/scikit-gstat?style=flat-square&label=%E2%98%85&color=ffd54f&labelColor=24292f" alt="GitHub stars for mmaelicke/scikit-gstat">
+<img src="https://img.shields.io/github/last-commit/mmaelicke/scikit-gstat?style=flat-square&label=&color=ffd54f&labelColor=24292f" alt="Last commit date for mmaelicke/scikit-gstat">
+</td>
 <td width="25%" valign="top">
 <a href="https://opengeostat.github.io/pygslib/"><b>PyGSLIB</b></a><br>
 <sub><b>MINING</b></sub><br><br>

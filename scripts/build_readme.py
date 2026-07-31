@@ -156,7 +156,17 @@ def validate(tools):
         sys.exit("tools.json validation failed:\n  " + "\n  ".join(errors))
 
 
-def fetch_stars(repo):
+STARS_CACHE_FILE = ROOT / "data" / ".stars_cache.json"
+
+
+def load_stars_cache():
+    try:
+        return json.loads(STARS_CACHE_FILE.read_text())
+    except Exception:
+        return {}
+
+
+def fetch_stars(repo, cache):
     req = urllib.request.Request(
         f"https://api.github.com/repos/{repo}",
         headers={"User-Agent": "awesome-civil-engineering-list", "Accept": "application/vnd.github+json"},
@@ -167,8 +177,13 @@ def fetch_stars(repo):
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.load(resp)
-            return data.get("stargazers_count", 0)
+            stars = data.get("stargazers_count", 0)
+            cache[repo] = stars
+            return stars
     except Exception as exc:
+        if repo in cache:
+            print(f"NOTE: using cached stars for {repo} ({exc})", file=sys.stderr)
+            return cache[repo]
         print(f"WARNING: could not fetch stars for {repo}: {exc}", file=sys.stderr)
         return 0
 
@@ -329,8 +344,10 @@ def build_llms_txt(tools_by_cat):
 def build():
     tools = json.loads(TOOLS_FILE.read_text())
     validate(tools)
+    cache = load_stars_cache()
     for t in tools:
-        t["_stars"] = fetch_stars(t["repo"])
+        t["_stars"] = fetch_stars(t["repo"], cache)
+    STARS_CACHE_FILE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
 
     tools_by_cat = []
     for cat in CATEGORIES:

@@ -149,5 +149,276 @@
     "license": "MIT",
     "added": "2026-07-30",
     "language": "Python"
+  },
+  {
+    "name": "sectionproperties",
+    "repo": "robbievanleeuwen/section-properties",
+    "homepage": "https://sectionproperties.rtfd.io",
+    "category": "structural-engineering",
+    "description": "Analysis of arbitrary structural cross-sections in Python: section properties, warping, and stress computation.",
+    "license": "MIT",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "XC",
+    "repo": "xcfem/xc",
+    "homepage": "http://www.xcengineering.xyz/html_files/software.html",
+    "category": "structural-engineering",
+    "description": "Open-source finite element analysis program oriented to civil and structural engineering problems.",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "groundhog",
+    "repo": "snakesonabrain/groundhog",
+    "homepage": "https://github.com/snakesonabrain/groundhog",
+    "category": "geotechnical-engineering",
+    "description": "General-purpose geotechnical Python library for site investigation data, foundation design, and soil profile analysis.",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "geolysis",
+    "repo": "patrickboateng/geolysis",
+    "homepage": "https://docs.geolysis.io",
+    "category": "geotechnical-engineering",
+    "description": "Python package for geotechnical analysis: soil classification, SPT corrections, and allowable bearing capacity.",
+    "license": "MIT",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "pygef",
+    "repo": "cemsbv/pygef",
+    "homepage": "https://cemsbv.github.io/pygef",
+    "category": "geotechnical-engineering",
+    "description": "Parse and analyse CPT and borehole files (GEF/XML) from geotechnical site investigations into dataframes.",
+    "license": "MIT",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "ObsPy",
+    "repo": "obspy/obspy",
+    "homepage": "https://www.obspy.org",
+    "category": "earthquake-engineering",
+    "description": "Python framework for processing seismological data: waveforms, event catalogs, and station metadata.",
+    "license": "LGPL-3.0",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "gmprocess",
+    "repo": "usgs/groundmotion-processing",
+    "homepage": "https://github.com/usgs/groundmotion-processing",
+    "category": "earthquake-engineering",
+    "description": "USGS software for automated processing of earthquake ground-motion records.",
+    "license": "Public Domain (USGS)",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "eqsig",
+    "repo": "eng-tools/eqsig",
+    "homepage": "https://eqsig.readthedocs.io",
+    "category": "earthquake-engineering",
+    "description": "Python library for seismic signal processing: response spectra, Arias intensity, and ground-motion metrics.",
+    "license": "MIT",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "MATSim",
+    "repo": "matsim-org/matsim-libs",
+    "homepage": "https://matsim.org",
+    "category": "transportation-engineering",
+    "description": "Agent-based transport simulation framework for large-scale, activity-based travel demand modeling.",
+    "license": "GPL-2.0",
+    "language": "Java",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "AequilibraE",
+    "repo": "AequilibraE/aequilibrae",
+    "homepage": "https://www.aequilibrae.com",
+    "category": "transportation-engineering",
+    "description": "Python transportation modeling package: network editing, traffic assignment, and matrix estimation, with a QGIS plugin.",
+    "license": "MIT (modified)",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "A/B Street",
+    "repo": "a-b-street/abstreet",
+    "homepage": "https://a-b-street.github.io/docs/",
+    "category": "transportation-engineering",
+    "description": "Transportation planning and traffic simulation game exploring how small street changes affect a city.",
+    "license": "Apache-2.0",
+    "language": "Rust",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "MODFLOW 6",
+    "repo": "MODFLOW-ORG/modflow6",
+    "homepage": "https://modflow6.readthedocs.io/",
+    "category": "environmental-engineering",
+    "description": "USGS modular hydrologic model: the industry-standard simulator for groundwater flow and transport.",
+    "license": "Public Domain (USGS)",
+    "language": "Fortran",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "FloPy",
+    "repo": "modflowpy/flopy",
+    "homepage": "https://flopy.readthedocs.io",
+    "category": "environmental-engineering",
+    "description": "Python package to create, run, and post-process MODFLOW-based groundwater models.",
+    "license": "Public Domain (USGS)",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "QSDsan",
+    "repo": "QSD-Group/QSDsan",
+    "homepage": "https://qsdsan.com",
+    "category": "environmental-engineering",
+    "description": "Quantitative sustainable design of sanitation and resource recovery systems: process modeling and life cycle assessment.",
+    "license": "NCSA (UIUC)",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "PySWMM",
+    "repo": "pyswmm/pyswmm",
+    "homepage": "https://www.pyswmm.org",
+    "category": "hydraulics-water-resources",
+    "description": "Python interface to EPA SWMM: step through stormwater simulations and control hydraulic elements in real time.",
+    "license": "BSD-2-Clause",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "EPANET",
+    "repo": "OpenWaterAnalytics/EPANET",
+    "homepage": "https://www.epa.gov/water-research/epanet",
+    "category": "hydraulics-water-resources",
+    "description": "Hydraulic and water quality solver for pressurized drinking-water distribution networks (community repository).",
+    "license": "MIT",
+    "language": "C",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "ANUGA",
+    "repo": "anuga-community/anuga_core",
+    "homepage": "https://anuga.anu.edu.au",
+    "category": "hydraulics-water-resources",
+    "description": "Hydrodynamic modeling of floods, storm surges, and tsunamis using the shallow water wave equation.",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "That Open Engine",
+    "repo": "ThatOpen/engine_web-ifc",
+    "homepage": "https://thatopen.github.io/engine_web-ifc/demo",
+    "category": "bim-cad",
+    "description": "Fast IFC parsing and geometry engine for reading and writing BIM models in JavaScript and WebAssembly.",
+    "license": "MPL-2.0",
+    "language": "TypeScript",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "Speckle",
+    "repo": "specklesystems/speckle-server",
+    "homepage": "https://speckle.systems",
+    "category": "bim-cad",
+    "description": "Collaborative data hub for AEC: exchange 3D models and BIM data between design tools in real time.",
+    "license": "Apache-2.0",
+    "language": "TypeScript",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "GeoLibre",
+    "repo": "opengeos/GeoLibre",
+    "homepage": "https://geolibre.app",
+    "category": "gis-geospatial",
+    "description": "Lightweight, cloud-native GIS platform that runs in the browser, on desktop, on mobile, and inside Jupyter notebooks.",
+    "license": "MIT",
+    "language": "TypeScript",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "GeoPandas",
+    "repo": "geopandas/geopandas",
+    "homepage": "https://geopandas.org",
+    "category": "gis-geospatial",
+    "description": "Pandas-based Python library for geospatial vector data: geometry operations, spatial joins, and mapping.",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "AcadGIS",
+    "repo": "riponcm/AcadGIS",
+    "homepage": "https://acadgis.com",
+    "category": "gis-geospatial",
+    "description": "Study-area and research map generator: turns a place name and a data table into journal-ready maps in a few lines of Python.",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "pinned": true,
+    "added": "2026-07-31"
+  },
+  {
+    "name": "Open3D",
+    "repo": "isl-org/Open3D",
+    "homepage": "https://www.open3d.org",
+    "category": "surveying-point-cloud",
+    "description": "Modern library for 3D data processing: point clouds, meshes, registration, and reconstruction in Python and C++.",
+    "license": "MIT",
+    "language": "C++",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "Potree",
+    "repo": "potree/potree",
+    "homepage": "http://potree.org",
+    "category": "surveying-point-cloud",
+    "description": "WebGL viewer for massive point clouds: stream and explore billions of laser-scan points in the browser.",
+    "license": "BSD-2-Clause",
+    "language": "JavaScript",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "GemPy",
+    "repo": "gempy-project/gempy",
+    "homepage": "https://gempy.org",
+    "category": "mining-engineering",
+    "description": "3D structural geological modeling in Python with implicit interpolation and probabilistic support.",
+    "license": "EUPL-1.2",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "GSTools",
+    "repo": "GeoStat-Framework/GSTools",
+    "homepage": "https://geostat-framework.org",
+    "category": "mining-engineering",
+    "description": "Geostatistical toolbox: variogram estimation, kriging, random field generation, and spatial interpolation.",
+    "license": "LGPL-3.0",
+    "language": "Python",
+    "added": "2026-07-31"
+  },
+  {
+    "name": "SciKit-GStat",
+    "repo": "mmaelicke/scikit-gstat",
+    "homepage": "https://mmaelicke.github.io/scikit-gstat/",
+    "category": "mining-engineering",
+    "description": "SciPy-style variogram estimation and geostatistics toolbox for Python.",
+    "license": "MIT",
+    "language": "Python",
+    "added": "2026-07-31"
   }
 ]

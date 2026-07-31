@@ -6,6 +6,9 @@ headers-check.html
 assets/concepts/
 .claude/
 
+# Local star-count cache used by build_readme.py (regenerated on each run)
+data/.stars_cache.json
+
 # OS / editor noise
 Thumbs.db
 .DS_Store
