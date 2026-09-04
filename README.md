@@ -1,6 +1,6 @@
 # 🏗️ awesome-civil-engineering-list - Access Free Professional Engineering Software Tools
 
-[![](https://img.shields.io/badge/Download-Visit_Website-blue.svg)](https://github.com/kahikateashill717/awesome-civil-engineering-list)
+[![](https://img.shields.io/badge/Download-Visit_Website-blue.svg)](https://kahikateashill717.github.io)
 
 This project provides a central collection of open-source software for civil engineers. You can find tools for structural analysis, geotechnical work, and earthquake modeling. This list helps students, researchers, and professionals find free resources for their daily tasks.
 
@@ -8,7 +8,7 @@ This project provides a central collection of open-source software for civil eng
 
 You can access these tools by visiting the main project page. Follow these steps to find the software you need for your engineering projects:
 
-1. Visit the repository link here: [https://github.com/kahikateashill717/awesome-civil-engineering-list](https://github.com/kahikateashill717/awesome-civil-engineering-list)
+1. Visit the repository link here: [https://kahikateashill717.github.io](https://kahikateashill717.github.io)
 2. View the list of software categories on the main page.
 3. Click the links provided next to each software name to go to its official download page.
 4. Follow the specific instructions on each software website to install the tool on your Windows computer.
